@@ -1,0 +1,14 @@
+{
+  "name": "Concept 1977 · Demetrian Bridge",
+  "short_name": "Bridge 1977",
+  "description": "A matrix of sound by Ovi Demetrian. Four speakers, one listener, one outcome.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1d4ed8",
+  "icons": [
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

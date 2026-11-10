@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" font-family="Helvetica, Arial, sans-serif">
+  <rect width="1000" height="1000" fill="#ffffff"/>
+  <rect x="12" y="12" width="976" height="976" fill="none" stroke="#1d4ed8" stroke-width="6"/>
+  <text x="40" y="70" font-size="38" font-weight="800" fill="#111"><tspan fill="#dc2626">CONCEPT 1977</tspan> · DEMETRIAN BRIDGE</text>
+  <text x="40" y="104" font-size="24" fill="#1d4ed8">Matrix of sound · principle schematic</text>
+  <line x1="50" y1="460" x2="180" y2="460" stroke="#111" stroke-width="4" stroke-dasharray="12 8"/>
+  <line x1="50" y1="540" x2="180" y2="540" stroke="#111" stroke-width="4" stroke-dasharray="12 8"/>
+  <text x="50" y="448" font-size="26" font-weight="700">IN −</text>
+  <text x="50" y="580" font-size="26" font-weight="700">IN +</text>
+  <polygon points="180,410 180,590 340,500" fill="#A8D4FF" stroke="#111" stroke-width="4"/>
+  <text x="200" y="510" font-size="30" font-weight="800">A1</text>
+  <line x1="340" y1="500" x2="520" y2="500" stroke="#111" stroke-width="4"/>
+  <circle cx="390" cy="468" r="22" fill="#FACC15"/>
+  <text x="390" y="478" font-size="30" font-weight="800" text-anchor="middle">±</text>
+  <text x="362" y="535" font-size="20" fill="#444">polarity</text>
+  <circle cx="520" cy="500" r="11" fill="#dc2626"/>
+  <text x="540" y="508" font-size="26" font-weight="800" fill="#dc2626">M</text>
+  <line x1="520" y1="500" x2="520" y2="440" stroke="#111" stroke-width="4"/>
+  <path d="M520,440 a8,7.5 0 0 1 0,-15 a8,7.5 0 0 1 0,-15 a8,7.5 0 0 1 0,-15 a8,7.5 0 0 1 0,-15" fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="520" y1="380" x2="520" y2="352" stroke="#111" stroke-width="4"/>
+  <line x1="494" y1="352" x2="546" y2="352" stroke="#111" stroke-width="5"/>
+  <line x1="494" y1="338" x2="546" y2="338" stroke="#111" stroke-width="5"/>
+  <line x1="520" y1="338" x2="520" y2="290" stroke="#111" stroke-width="4"/>
+  <rect x="455" y="322" width="140" height="132" fill="none" stroke="#1d4ed8" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="608" y="396" font-size="24" font-weight="800" fill="#1d4ed8">F1</text>
+  <text x="345" y="418" font-size="22">L1 ___ mH</text>
+  <text x="345" y="352" font-size="22">C1 ___ µF</text>
+  <rect x="505" y="230" width="30" height="60" fill="#fff" stroke="#111" stroke-width="4"/>
+  <polygon points="535,240 590,205 590,315 535,280" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="440" y="268" font-size="24" font-weight="800">D1</text>
+  <line x1="605" y1="260" x2="660" y2="260" stroke="#dc2626" stroke-width="5"/>
+  <polygon points="660,248 680,260 660,272" fill="#dc2626"/>
+  <line x1="520" y1="230" x2="520" y2="140" stroke="#111" stroke-width="4"/>
+  <circle cx="520" cy="130" r="11" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="545" y="145" font-size="40" font-weight="800" fill="#dc2626">+</text>
+  <line x1="520" y1="500" x2="520" y2="560" stroke="#111" stroke-width="4"/>
+  <path d="M520,560 a8,7.5 0 0 1 0,15 a8,7.5 0 0 1 0,15 a8,7.5 0 0 1 0,15 a8,7.5 0 0 1 0,15" fill="none" stroke="#111" stroke-width="4"/>
+  <line x1="520" y1="620" x2="520" y2="648" stroke="#111" stroke-width="4"/>
+  <line x1="494" y1="648" x2="546" y2="648" stroke="#111" stroke-width="5"/>
+  <line x1="494" y1="662" x2="546" y2="662" stroke="#111" stroke-width="5"/>
+  <line x1="520" y1="662" x2="520" y2="710" stroke="#111" stroke-width="4"/>
+  <rect x="455" y="546" width="140" height="132" fill="none" stroke="#1d4ed8" stroke-width="3" stroke-dasharray="8 6"/>
+  <text x="608" y="620" font-size="24" font-weight="800" fill="#1d4ed8">F2</text>
+  <text x="345" y="600" font-size="22">L2 ___ mH</text>
+  <text x="345" y="664" font-size="22">C2 ___ µF</text>
+  <rect x="505" y="710" width="30" height="60" fill="#fff" stroke="#111" stroke-width="4"/>
+  <polygon points="535,720 590,685 590,795 535,760" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="440" y="748" font-size="24" font-weight="800">D2</text>
+  <line x1="625" y1="740" x2="680" y2="740" stroke="#1d4ed8" stroke-width="5"/>
+  <polygon points="625,728 605,740 625,752" fill="#1d4ed8"/>
+  <line x1="520" y1="770" x2="520" y2="860" stroke="#111" stroke-width="4"/>
+  <circle cx="520" cy="870" r="11" fill="#fff" stroke="#111" stroke-width="4"/>
+  <text x="545" y="884" font-size="44" font-weight="800" fill="#1d4ed8">−</text>
+  <text x="715" y="200" font-size="28" font-weight="800" fill="#dc2626">PRINCIPLE</text>
+  <g font-size="22" fill="#111">
+    <text x="715" y="240">One amp drives</text>
+    <text x="715" y="266">the midpoint M.</text>
+    <text x="715" y="306">Two drivers in</text>
+    <text x="715" y="332">series, + to −.</text>
+    <text x="715" y="372">They move in</text>
+    <text x="715" y="398">opposite phase.</text>
+    <text x="715" y="438">Each driver has</text>
+    <text x="715" y="464">its own filter,</text>
+    <text x="715" y="490">DC-isolated.</text>
+    <text x="715" y="530">Filters set the</text>
+    <text x="715" y="556">phase per band.</text>
+    <text x="715" y="596" font-weight="800">No DSP.</text>
+    <text x="715" y="622" font-weight="800">AC signal only.</text>
+  </g>
+  <rect x="700" y="660" width="262" height="120" fill="#FEF9C3" stroke="#FACC15" stroke-width="3"/>
+  <g font-size="21" font-style="italic" fill="#111">
+    <text x="715" y="694">Realism: every sound</text>
+    <text x="715" y="722">at its true location,</text>
+    <text x="715" y="750">at the same time.</text>
+  </g>
+  <line x1="40" y1="920" x2="960" y2="920" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="40" y="952" font-size="22" font-weight="700">Concept &amp; invention: Ovi Demetrian · Romania, 1977</text>
+  <text x="40" y="978" font-size="18" fill="#444">Drawn Nov 10, 2026 · component values left blank, to be set by ear</text>
+</svg>

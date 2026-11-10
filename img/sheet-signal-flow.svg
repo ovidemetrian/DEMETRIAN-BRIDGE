@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#111"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="1000" fill="#ffffff"/>
+  <rect x="12" y="12" width="976" height="976" fill="none" stroke="#1d4ed8" stroke-width="6"/>
+  <text x="40" y="70" font-size="38" font-weight="800" fill="#111"><tspan fill="#dc2626">CONCEPT 1977</tspan> · DEMETRIAN BRIDGE</text>
+  <text x="40" y="104" font-size="24" fill="#1d4ed8">Sheet 2 · signal flow · one system, one outcome</text>
+  <rect x="80" y="135" width="360" height="80" rx="10" fill="#DBEAFE" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="260" y="170" font-size="26" font-weight="800" text-anchor="middle">STEREO L / R</text>
+  <text x="260" y="200" font-size="20" text-anchor="middle">split to 4 feeds</text>
+  <rect x="560" y="135" width="360" height="80" rx="10" fill="#DBEAFE" stroke="#1d4ed8" stroke-width="3"/>
+  <text x="740" y="170" font-size="26" font-weight="800" text-anchor="middle">MULTICHANNEL</text>
+  <text x="740" y="200" font-size="20" text-anchor="middle">5.1 · Atmos · encoded</text>
+  <line x1="260" y1="215" x2="420" y2="262" stroke="#111" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="740" y1="215" x2="580" y2="262" stroke="#111" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="330" y="265" width="340" height="56" rx="28" fill="#FACC15" stroke="#111" stroke-width="3"/>
+  <text x="500" y="302" font-size="26" font-weight="800" text-anchor="middle">SOURCE SELECT</text>
+  <line x1="500" y1="321" x2="500" y2="356" stroke="#111" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="200" y="360" width="600" height="70" rx="8" fill="#A8D4FF" stroke="#111" stroke-width="3"/>
+  <text x="500" y="393" font-size="26" font-weight="800" text-anchor="middle">INPUT FILTERS ×4</text>
+  <text x="500" y="420" font-size="20" text-anchor="middle">line-level, before the amps</text>
+  <line x1="380" y1="430" x2="290" y2="476" stroke="#111" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="620" y1="430" x2="710" y2="476" stroke="#111" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="110" y="480" width="360" height="86" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="5"/>
+  <text x="290" y="515" font-size="25" font-weight="800" text-anchor="middle" fill="#dc2626">TRUE BYPASS</text>
+  <text x="290" y="546" font-size="20" text-anchor="middle">pure analog · default</text>
+  <rect x="530" y="480" width="360" height="86" rx="8" fill="#ffffff" stroke="#1d4ed8" stroke-width="3" stroke-dasharray="10 6"/>
+  <text x="710" y="515" font-size="25" font-weight="800" text-anchor="middle" fill="#1d4ed8">DSP · OPTIONAL</text>
+  <text x="710" y="546" font-size="20" text-anchor="middle">decode · correct · when needed</text>
+  <line x1="290" y1="566" x2="430" y2="602" stroke="#111" stroke-width="3" marker-end="url(#ar)"/>
+  <line x1="710" y1="566" x2="570" y2="602" stroke="#111" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="500" y="690" font-size="18" text-anchor="middle" fill="#444">differential amps ×4</text>
+  <g font-size="24" font-weight="800" text-anchor="middle">
+    <rect x="140" y="608" width="120" height="52" rx="6" fill="#111"/><text x="200" y="642" fill="#FACC15">DA1</text>
+    <rect x="340" y="608" width="120" height="52" rx="6" fill="#111"/><text x="400" y="642" fill="#FACC15">DA2</text>
+    <rect x="540" y="608" width="120" height="52" rx="6" fill="#111"/><text x="600" y="642" fill="#FACC15">DA3</text>
+    <rect x="740" y="608" width="120" height="52" rx="6" fill="#111"/><text x="800" y="642" fill="#FACC15">DA4</text>
+  </g>
+  <rect x="80" y="700" width="840" height="200" fill="#FEF9C3" stroke="#111" stroke-width="3"/>
+  <rect x="125" y="712" width="44" height="58" fill="#111"/>
+  <rect x="831" y="712" width="44" height="58" fill="#111"/>
+  <rect x="125" y="830" width="44" height="58" fill="#111"/>
+  <rect x="831" y="830" width="44" height="58" fill="#111"/>
+  <g font-size="18" font-weight="700">
+    <text x="180" y="746">FL</text>
+    <text x="795" y="746">FR</text>
+    <text x="180" y="864">RL</text>
+    <text x="795" y="864">RR</text>
+  </g>
+  <line x1="200" y1="660" x2="160" y2="710" stroke="#dc2626" stroke-width="3" stroke-dasharray="7 5"/>
+  <line x1="400" y1="660" x2="170" y2="830" stroke="#dc2626" stroke-width="3" stroke-dasharray="7 5"/>
+  <line x1="600" y1="660" x2="830" y2="830" stroke="#1d4ed8" stroke-width="3" stroke-dasharray="7 5"/>
+  <line x1="800" y1="660" x2="840" y2="710" stroke="#1d4ed8" stroke-width="3" stroke-dasharray="7 5"/>
+  <circle cx="500" cy="812" r="26" fill="#dc2626"/>
+  <text x="500" y="874" font-size="20" font-weight="700" text-anchor="middle">listener</text>
+  <line x1="40" y1="920" x2="960" y2="920" stroke="#1d4ed8" stroke-width="2"/>
+  <text x="40" y="952" font-size="22" font-weight="700">Concept &amp; invention: Ovi Demetrian · Romania, 1977</text>
+  <text x="40" y="978" font-size="18" fill="#444">Drawn Nov 10, 2026 · 4 differential amps, identical F1 / F2 · pure analog by default</text>
+</svg>

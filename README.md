@@ -13,9 +13,9 @@ The Demetrian Bridge spreads a recording naturally around one listener using fou
 - `img/sheet-signal-flow.svg` — Sheet 2, signal flow
 - `manifest.webmanifest`, `sw.js`, `icons/` — PWA files
 
-## Publish on GitHub Pages
+## Live
 
-Live at https://ovidemetrian.github.io/demetrian-bridge/ — installable from the phone's home screen.
+https://ovidemetrian.github.io/DEMETRIAN-BRIDGE/ — installable from the phone's home screen.
 
 ## Status
 

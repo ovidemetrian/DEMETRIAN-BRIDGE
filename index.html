@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Demetrian Bridge · Concept 1977</title>
+<meta name="description" content="Concept 1977 · Demetrian Bridge — a matrix of sound by Ovi Demetrian. Four speakers, one listener, one outcome.">
+<meta name="theme-color" content="#1d4ed8">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon.svg">
+<meta property="og:title" content="Concept 1977 · Demetrian Bridge">
+<meta property="og:description" content="A matrix of sound. Four speakers, one listener, one outcome.">
+<style>
+  :root{
+    --red:#dc2626; --yellow:#FACC15; --blue:#1d4ed8; --sky:#A8D4FF;
+    --ink:#111; --soft:#555; --paper:#fff; --cream:#FEF9C3; --line:#e5e7eb;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--paper);color:var(--ink);
+    font:17px/1.6 "Helvetica Neue",Helvetica,Arial,sans-serif}
+  main{max-width:760px;margin:0 auto;padding:0 16px 48px}
+  .stripe{height:8px;background:linear-gradient(90deg,var(--red) 0 33%,var(--yellow) 33% 66%,var(--blue) 66%)}
+  header{padding:40px 0 24px;border-bottom:3px solid var(--ink)}
+  .kicker{color:var(--red);font-weight:800;letter-spacing:.14em;font-size:14px;margin:0}
+  h1{font-size:clamp(40px,11vw,72px);line-height:.95;margin:8px 0 14px;letter-spacing:-.02em}
+  .tag{font-size:20px;color:var(--blue);margin:0;font-weight:600}
+  section{padding:32px 0;border-bottom:1px solid var(--line)}
+  h2{font-size:13px;letter-spacing:.16em;text-transform:uppercase;margin:0 0 12px;color:var(--blue)}
+  p{margin:0 0 14px}
+  .quote{background:var(--cream);border-left:6px solid var(--yellow);padding:16px 18px;
+    font-size:21px;font-style:italic;margin:6px 0 0}
+  ul.points{list-style:none;padding:0;margin:0}
+  ul.points li{padding:12px 0 12px 34px;position:relative;border-bottom:1px solid var(--line)}
+  ul.points li:last-child{border-bottom:0}
+  ul.points li::before{content:"";position:absolute;left:4px;top:19px;width:14px;height:14px;
+    border-radius:50%;background:var(--red)}
+  ul.points li:nth-child(3n+2)::before{background:var(--yellow);outline:2px solid var(--ink)}
+  ul.points li:nth-child(3n)::before{background:var(--blue)}
+  b{font-weight:800}
+  figure{margin:0 0 28px}
+  figure a{display:block;border:3px solid var(--ink)}
+  figure img{display:block;width:100%;height:auto;aspect-ratio:1/1}
+  figcaption{font-size:14px;color:var(--soft);margin-top:8px}
+  .status{display:inline-block;background:var(--ink);color:var(--yellow);font-weight:800;
+    padding:4px 10px;font-size:13px;letter-spacing:.1em}
+  footer{padding:28px 0 0;font-size:15px;color:var(--soft)}
+  footer strong{color:var(--ink)}
+  footer a{color:var(--blue)}
+  .small{font-size:13px}
+  #badge{position:fixed;right:16px;bottom:16px;z-index:10;touch-action:none;cursor:grab;
+    background:var(--ink);color:var(--yellow);font:800 12px/1 Helvetica,Arial,sans-serif;
+    letter-spacing:.14em;padding:10px 14px;border-radius:999px;user-select:none;
+    box-shadow:0 0 0 2px var(--red),0 0 18px 4px rgba(250,204,21,.55);
+    animation:glow 2.6s ease-in-out infinite}
+  @keyframes glow{50%{box-shadow:0 0 0 2px var(--blue),0 0 26px 8px rgba(29,78,216,.45)}}
+  @media (prefers-reduced-motion:reduce){#badge{animation:none}}
+</style>
+</head>
+<body>
+<div class="stripe"></div>
+<main>
+  <header>
+    <p class="kicker">CONCEPT 1977</p>
+    <h1>Demetrian<br>Bridge</h1>
+    <p class="tag">A matrix of sound. Four speakers, one listener, one outcome.</p>
+  </header>
+
+  <section>
+    <h2>The idea</h2>
+    <p>Most spatial audio fakes the room in a processor. The Demetrian Bridge does the opposite: it leaves the recording alone. The image the musicians, the engineer or the film director created comes through as they made it, spread naturally around the listener by four real sources.</p>
+    <p>The depth comes from physics, not from a chip. The phase relationship between drivers, set together with their crossovers, opens the recorded image into three dimensions without adding anything to it.</p>
+    <p class="quote">Realism: every sound at its true location, at the same time.</p>
+  </section>
+
+  <section>
+    <h2>1977 · Romania</h2>
+    <p>As a teenager, Ovi Demetrian built four cabinets, three drivers each, with filters he made by hand. He couldn't afford speakers, so he repaired old radios for money, salvaged drivers from the ones that couldn't be fixed, traded for more and found the rest at a flea market.</p>
+    <p>He placed the four cabinets around his room, played Kraftwerk's <i>Trans-Europe Express</i>, and experimented with cones out of phase until the train felt physically present. Not spread around. <b>Arriving.</b></p>
+    <p>A patent was started and never finished. The idea stayed in his head for almost fifty years. These drawings put it on paper.</p>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <ul class="points">
+      <li><b>Differential amps.</b> Each amp drives the midpoint between two drivers wired in series, from + to −. The two drivers move in opposite phase.</li>
+      <li><b>Filters set the phase.</b> Each driver has its own filter, DC-isolated. The phase per band is shaped by the crossover, not by a processor.</li>
+      <li><b>×4, identical.</b> Four differential amps with identical speaker filters keep the room symmetrical. Line-level input filters of a different type sit before the amps.</li>
+      <li><b>Pure analog by default.</b> True bypass keeps the signal analog from input to cone. DSP is an option, used only when the material needs it, such as decoding.</li>
+      <li><b>Selectable source.</b> Stereo or multichannel (5.1, Atmos), so today's already-encoded material can cross the bridge too.</li>
+      <li><b>One bridge.</b> The whole system is the bridge. Everything bridges to one outcome: the listener in the chair.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>The drawings</h2>
+    <figure>
+      <a href="img/sheet-principle.svg" target="_blank" rel="noopener"><img src="img/sheet-principle.svg" alt="Sheet 1: principle schematic. A differential amplifier drives midpoint M between two drivers in series, each with its own filter, moving in opposite phase." width="1000" height="1000" loading="lazy"></a>
+      <figcaption>Sheet 1 · principle schematic. Tap for the full-resolution drawing.</figcaption>
+    </figure>
+    <figure>
+      <a href="img/sheet-signal-flow.svg" target="_blank" rel="noopener"><img src="img/sheet-signal-flow.svg" alt="Sheet 2: signal flow. Stereo or multichannel source, input filters, true bypass or optional DSP, four differential amps, four cabinets around the listener." width="1000" height="1000" loading="lazy"></a>
+      <figcaption>Sheet 2 · signal flow, one system, one outcome.</figcaption>
+    </figure>
+  </section>
+
+  <section>
+    <h2>Status</h2>
+    <p><span class="status">CONCEPT · NOT YET BUILT</span></p>
+    <p>The principle and signal flow are drawn. Component values are left blank on purpose. They are meant to be set by ear, in the chair. It has to be heard.</p>
+  </section>
+
+  <footer>
+    <p><strong>Concept &amp; invention: Ovi Demetrian</strong> · Romania, 1977 · drawn November 10, 2026</p>
+    <p><a href="https://ovidemetrian.github.io/my-future-past/">The Future Past · portfolio</a></p>
+    <p class="small">Drawings and page built with Claude.</p>
+  </footer>
+</main>
+
+<div id="badge" aria-hidden="true">MADE BY OVI</div>
+
+<script>
+  (function(){
+    var b=document.getElementById('badge'),sx,sy,ox,oy,drag=false;
+    b.addEventListener('pointerdown',function(e){drag=true;b.setPointerCapture(e.pointerId);
+      var r=b.getBoundingClientRect();sx=e.clientX;sy=e.clientY;ox=r.left;oy=r.top;
+      b.style.cursor='grabbing';});
+    b.addEventListener('pointermove',function(e){if(!drag)return;
+      var x=Math.max(4,Math.min(innerWidth-b.offsetWidth-4,ox+e.clientX-sx));
+      var y=Math.max(4,Math.min(innerHeight-b.offsetHeight-4,oy+e.clientY-sy));
+      b.style.left=x+'px';b.style.top=y+'px';b.style.right='auto';b.style.bottom='auto';});
+    b.addEventListener('pointerup',function(){drag=false;b.style.cursor='grab';});
+  })();
+  if('serviceWorker' in navigator){
+    addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});
+  }
+</script>
+</body>
+</html>
