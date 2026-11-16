@@ -1,8 +1,9 @@
-const CACHE = 'bridge-1977-v1';
+const CACHE = 'bridge-1977-v2';
 const ASSETS = [
   './',
   'index.html',
   'manifest.webmanifest',
+  'about.js',
   'icons/icon.svg',
   'img/sheet-principle.svg',
   'img/sheet-signal-flow.svg'
