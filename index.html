@@ -149,5 +149,63 @@
     addEventListener('load',function(){navigator.serviceWorker.register('sw.js').catch(function(){});});
   }
 </script>
+
+<!-- tap the MADE BY OVI badge: the app's own "About / how it was made" page (about.js) -->
+<script type="application/json" id="about">
+{
+  "title": "Demetrian Bridge",
+  "tagline": "A matrix of sound. Four speakers, one listener, one outcome.",
+  "sections": [
+    {
+      "h": "What it is",
+      "p": [
+        "A way to spread a recording naturally around one listener using four real sources, without processing that changes the creator's intent.",
+        "Depth comes from the phase relationship between the drivers, set together with their crossovers. Realism means every sound at its true location, at the same time."
+      ]
+    },
+    {
+      "h": "On this page",
+      "list": [
+        "The idea, in Ovi's words.",
+        "Sheet 1: the principle schematic.",
+        "Sheet 2: the signal flow.",
+        "Drag the MADE BY OVI badge anywhere; tap it to read this page."
+      ]
+    },
+    {
+      "h": "How it was made",
+      "p": [
+        "Concept and invention: Ovi Demetrian, begun in Romania and carried through a lifetime of building speakers, amplifiers and filters by ear.",
+        "The drawings and this page were built with Claude from his description.",
+        "Status: a concept, not yet built. Component values are left blank on purpose, to be set by ear."
+      ]
+    }
+  ],
+  "links": [
+    {
+      "label": "Source on GitHub",
+      "url": "https://github.com/ovidemetrian/DEMETRIAN-BRIDGE"
+    },
+    {
+      "label": "Ovi on GitHub",
+      "url": "https://github.com/ovidemetrian"
+    },
+    {
+      "label": "Smart Homes by Ovi",
+      "url": "https://www.smarthomesbyovi.com"
+    },
+    {
+      "label": "Media Content Delivery",
+      "url": "https://www.mediacontentdelivery.com"
+    },
+    {
+      "label": "Ten Laws of AI",
+      "url": "https://10lawsofai.com"
+    }
+  ],
+  "credit": "Concept &amp; invention: <b>Ovi Demetrian<\/b> · drawings and page built with Claude"
+}
+</script>
+<script src="about.js" defer></script>
 </body>
 </html>
